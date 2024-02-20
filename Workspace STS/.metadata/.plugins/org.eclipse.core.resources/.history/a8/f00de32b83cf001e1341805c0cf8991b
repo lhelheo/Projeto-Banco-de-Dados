@@ -1,0 +1,7 @@
+INSERT INTO tb_usuario(name) VALUES ('Leonardo');
+INSERT INTO tb_department(name) VALUES ('Pedro');
+
+INSERT INTO tb_usuario(cpf, nome, data_nascimento) VALUES (1, 'Maria', 'maria@gmail.com');
+INSERT INTO tb_usuario(cpf, nome, data_nascimento) VALUES (1, 'Bob', 'bob@gmail.com');
+INSERT INTO tb_usuario(cpf, nome, data_nascimento) VALUES (2, 'Alex', 'alex@gmail.com');
+INSERT INTO tb_usuario(cpf, nome, data_nascimento) VALUES (2, 'Ana', 'ana@gmail.com');

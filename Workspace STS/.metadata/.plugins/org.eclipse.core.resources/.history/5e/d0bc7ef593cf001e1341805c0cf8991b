@@ -1,0 +1,19 @@
+package com.projetobdd.userufs;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class UserufsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UserufsApplication.class, args);
+	}
+
+}
+
+/* essa classe é responsável por iniciar a aplicação Spring Boot,
+// que será executada como um aplicativo Java autônomo. 
+// O método main inicia o Spring Boot usando SpringApplication.run(),
+// e a anotação @SpringBootApplication configura a aplicação para 
+// utilizar a configuração automática do Spring Boot */

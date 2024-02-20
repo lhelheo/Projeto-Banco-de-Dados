@@ -1,0 +1,6 @@
+package com.projetobdd.userufs.entities;
+
+public class Usuario {
+	private Int cpf;
+	
+}

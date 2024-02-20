@@ -1,0 +1,43 @@
+package com.projetobdd.userufs.entities;
+
+import java.util.Date;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GenerationValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Table;
+import jakarta.persistence.Cpf;
+
+
+@Entity
+@Table(name = "tb_usuario")
+
+public class Usuario {
+	
+	@Cpf
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	
+	private int cpf;
+	private String nome;
+	private Date data_nascimento;
+	
+	
+	public int getCpf() {
+		return cpf;
+	}
+	public void setCpf(int cpf) {
+		this.cpf = cpf;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public Date getData_nascimento() {
+		return data_nascimento;
+	}
+	public void setData_nascimento(Date data_nascimento) {
+		this.data_nascimento = data_nascimento;
+	}
+	
+}

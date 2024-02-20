@@ -1,0 +1,11 @@
+package com.projetobdd.userufs.entities;
+
+public class Usuario {
+	private Int cpf;
+	private String nome;
+	private data_nascimento data;
+	
+	public Usuario() {
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.projetobdd.userufs.repositories;
+
+public class UserRepository {
+
+}

@@ -1,0 +1,20 @@
+package com.projetobdd.userufs.controllers;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.projetobdd.userufs.repositories.User;
+import com.projetobdd.userufs.repositories.UserRepository;
+
+@RestController
+@RequestMapping(value = "/users")
+public class UserController {
+
+		private UserRepository repository;
+	
+		public List<User> findAll(){
+			
+		}
+}

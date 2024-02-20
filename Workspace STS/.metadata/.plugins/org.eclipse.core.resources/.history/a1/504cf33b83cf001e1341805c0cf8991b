@@ -1,0 +1,4 @@
+INSERT INTO tb_usuario(nome, data_nascimento) VALUES ('Pedro', '2000-01-01');
+INSERT INTO tb_usuario(nome, data_nascimento) VALUES ('Leo', '1995-05-15');
+INSERT INTO tb_usuario(nome, data_nascimento) VALUES ('Paulo', '1987-10-30');
+INSERT INTO tb_usuario(nome, data_nascimento) VALUES ('Cleber', '1992-03-20');

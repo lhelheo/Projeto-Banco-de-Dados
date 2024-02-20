@@ -1,0 +1,6 @@
+package com.projetobdd.userufs.controllers;
+
+@RestController
+public class UserController {
+
+}
